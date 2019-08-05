@@ -48,7 +48,7 @@ void ergodox_blink_all_leds(void)
     ergodox_right_led_2_off();
     _delay_ms(50);
     ergodox_right_led_3_off();
-    //ergodox_led_all_on();
-    //_delay_ms(333);
+    ergodox_led_all_on();
+    _delay_ms(1000);
     ergodox_led_all_off();
 }
